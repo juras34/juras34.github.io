@@ -1,0 +1,166 @@
+nav {
+    background-color: #a187d1;
+}
+
+body {
+	background-color: #aca0f7;
+}
+
+header {
+	color: white;
+	background-color: #471d8c;
+	font-size: 100px;
+	font-family: cursive;
+	text-align: center;
+	border-radius: 50px;
+	border: 4px double yellow; /* Параметры границы */
+    background: #471d8c; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+}
+
+img {
+	margin-left: 26px;
+	margin-top: 26px;
+    border: 2px double black;
+}
+
+footer {
+	margin-top: 400px;
+	height: 50px;
+	background-color: #847ae8;
+	text-align: right;
+}
+
+body {
+    font: 14px 'Verdana';
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+
+
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}
+
+ul.menu > li > a:hover {
+    background-color: black;
+}
+
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 37px;
+    left: 0;
+    background-color: white;
+    border: 1px solid red;
+}
+
+ul.submenu > li {
+    display: block;
+}
+
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}
+
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+
+
+#back {
+	font-size: 20px;
+	font-color: red;
+}
+
+#a {
+	width: 280px;
+	height: 150px;
+	margin-top: 20px;
+	margin-left: 40px;
+	color: blue;
+	font-family: verdana;
+	font-size: 90px;
+}
+
+#mom {
+	font-size: 5px
+}
+
+#pewd {
+	margin-top: 4px;
+}
+
+#sub {
+	font-size: 70px;
+}
+
+#subs {
+	font-size: 500px;
+	margin-top: 30px;
+}
+
+#time {
+	font-size: 30px;
+	font-family: verdana;
+}
+
+#cat0 {
+	width: 220px;
+	height: 220px;
+}
+
+#cat1 {
+	width: 300px;
+	height: 225px;
+}
+
+#photos_border {
+	border: 4px double black; /* Параметры границы */
+    background: #fc3; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+}
+
+#dog0 {
+	height: 400px;
+	width: 400px;
+}
+
+#coto {
+    margin-bottom: 70px;
+}
