@@ -30,14 +30,14 @@
 			top:90%; 
 			width:300px;
 			}
-			#mask {background:#FFF; 
-			opacity:0.8; 
+			#mask {background:#000000; 
+			opacity:1; 
 			position:fixed; 
 			top:0; left:0; 
 			width:100%; 
 			height:100%; 
 			z-index:0;}
-			input[type='text'] {
+			input[type='password'] {
 			border:1px solid #CCC; 
 			padding:4px; 
 			color:#585858;}
@@ -60,7 +60,7 @@
 	if (pass == 'alfa34') { // Указываем правильный пароль
 	    win.style.display='none';
 	    mask.style.display='none'; 
-	} else { alert('Please enter password'); }
+	} else { alert('Please enter correct password'); }
 	}
 	</script>
 	</head>
@@ -75,6 +75,9 @@
 	     </div>
 	</div>
 	<div id="mask"></div>
+
+
+	
 
 </body>
 </html>
