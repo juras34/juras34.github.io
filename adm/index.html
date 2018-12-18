@@ -8,7 +8,6 @@
 </head>
 <body>
 
-	<canvas id="c1" width="400" height="200"></canvas>
 
 		<style>
 			color:#585858; 
@@ -75,6 +74,31 @@
 	     </div>
 	</div>
 	<div id="mask"></div>
+
+	<canvas id='canvas'>NOT BAD</canvas>
+
+	<script type="text/javascript">
+		
+		var 
+			canv = document.getElementById('canvas'),
+			ctx = canv.getContext('2d');
+
+				canv.width = window.innerWidth;
+				canv.height = window.innerHeight;
+
+				//code 
+				var x = 50;
+				ctx.fillStyle = 'magenta';
+				ctx.fillRect(50, 50, 300, 200);
+
+				setInterval(function() {
+					ctx.fillStyle = 'white';
+					ctx.fillRect(0, 0, canv.width, canv.height);
+
+					ctx.fillStyle = 'magenta';
+					ctx.fillRect(x++, 50, 300, 200);
+				}, 10);
+	</script>
 
 
 	
