@@ -3,7 +3,7 @@ nav {
 }
 
 body {
-	background-color: #aca0f7;
+	background-color: #e0e0e0;
 }
 
 header {
@@ -24,14 +24,8 @@ img {
     border: 2px double black;
 }
 
-footer {
-	margin-top: 400px;
-	height: 50px;
-	background-color: #847ae8;
-	text-align: right;
-}
-
 body {
+    background-image: url('content/background-noise.png');
     font: 14px 'Verdana';
     margin: 0;
     padding: 0;
