@@ -63,7 +63,8 @@ ul.menu > li > a {
 }
 
 ul.menu > li > a:hover {
-    background-color: black;
+    background-color: #aa0000;
+    border: black;
 }
 
 ul.submenu {
