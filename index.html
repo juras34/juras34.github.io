@@ -188,66 +188,6 @@ beginneon()
 				
 			<div class="fb-comments" data-href="https://juras-org.github.io/" data-width="600" data-numposts="50"></div>
 
-		<h1>Play peeeeeeeeep</h1>
-
-<label>frequency: <input id="fIn" min="40" max="6000" oninput="ShowRange()" type="range"></label>
-<span id="fOut">773 Hz</span><br>
-<label>the form: <input id="tIn" min="0" max="3" oninput="ShowRange()" type="range"></label>
-<span id="tOut">square</span><br>
-<label>volume: <input id="vIn" min="0" max="100" oninput="ShowRange()" type="range"></label>
-<span id="vOut">0.66</span><br>
-<label>time: <input id="dIn" min="1" max="5000" oninput="ShowRange()" type="range"></label>
-<span id="dOut">266 ms</span>
-<br>
-<button onclick="beep();"> PLAY! </button>
-
-<script type="text/javascript">
-  audioCtx = new(window.AudioContext || window.webkitAudioContext)();
-
-  ShowRange();
-
-  function ShowRange() {
-    frequency = document.getElementById("fIn").value;
-    document.getElementById("fOut").innerHTML = frequency + ' Hz';
-
-    switch (document.getElementById("tIn").value * 1) {
-      case 0: type = 'sine'; name='sinus'; break;
-      case 1: type = 'square'; name='square'; break;
-      case 2: type = 'sawtooth'; name='sawtooth'; break;
-      case 3: type = 'triangle'; name='triangle'; break;
-    }
-    document.getElementById("tOut").innerHTML = name;
-
-    volume = document.getElementById("vIn").value / 100;
-    document.getElementById("vOut").innerHTML = volume;
-
-    duration = document.getElementById("dIn").value;
-    document.getElementById("dOut").innerHTML = duration + ' ms';
-  }
-
-  function beep() {
-    var oscillator = audioCtx.createOscillator();
-    var gainNode = audioCtx.createGain();
-
-    oscillator.connect(gainNode);
-    gainNode.connect(audioCtx.destination);
-
-    gainNode.gain.value = volume;
-    oscillator.frequency.value = frequency;
-    oscillator.type = type;
-
-    oscillator.start();
-
-    setTimeout(
-        function() {
-          oscillator.stop();
-        },
-        duration
-    );
-  }
-</script>
-<hr>
-
 	<script type="text/javascript" src="script.js"></script>
 
 	
