@@ -1,3 +1,4 @@
+/*
 function displayCanvas(){
     var canvasHTML = document.getElementById('myCanvas');
     var contextHTML = canvasHTML.getContext('2d');
@@ -110,3 +111,5 @@ window.onload = function(){
 	}
     , 1000);
 }
+
+*/
