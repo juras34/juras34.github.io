@@ -1,0 +1,51 @@
+body {
+	background-color: grey;
+	font-size: 20px;
+}
+
+header {
+	background-color: rgb(255, 140, 0);
+	height: 200px;
+	margin-bottom: 5px;
+	border-radius: 8px;
+	text-align: right;
+	font-size: 150px;
+	font-family: Geneva;
+}
+
+#content {
+	background-color: rgb(255, 140, 0);
+	min-height: 500px;
+	width: 70%;
+	float: left;
+	border-radius: 8px;
+	font-size: 200px;
+	
+}
+
+#sidebar {
+	background: rgb(255, 140, 0);
+	min-height: 500px;
+	width: 29.7%;
+	float: left;
+	margin-left: 2px;
+	border-radius: 8px;
+	font-size: 200;
+}
+
+.footer {
+	float: right;
+	min-width: 1280px;
+	height: 200px;
+	background-color: rgb(255, 140, 0);
+	margin-top: 2px;
+	border-radius: 8px;
+	font-size: 200px;
+}
+
+.group {
+  content: "";
+  display: table;
+  clear: both;
+}
+
