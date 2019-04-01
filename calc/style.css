@@ -9,6 +9,8 @@ button {
 	font-size: 30px;
 	text-align: center;
 	border: solid black 1px;
+	font-family: Verdana;
+	text-align: center;
 }
 
 #eq {
