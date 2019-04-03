@@ -1,4 +1,8 @@
-#header{
+body {
+	background-color: #afafaf;
+}
+
+#header	{
 	height: 200px;
 	width: 100%;
 	text-align: right;
@@ -11,3 +15,24 @@
 	color: #7000ad;
 }
 
+#bnb-logo {
+	height: 200px;
+	width: 300px;
+	border-radius: 30px;
+	/*margin-top: 20px;*/
+	margin-left: 20px;
+	border: solid purple 3px;
+}
+
+#bnb-name {
+	//margin-left: 1%;
+	font-size: 40px;
+	font-family: Verdana;
+	color: #5d00ff;
+	//border: solid black 1px;
+}
+
+footer {
+	color: #3b00bc;
+	font-size: 40px;
+}
