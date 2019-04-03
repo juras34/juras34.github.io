@@ -1,2 +1,13 @@
-
+#header{
+	height: 200px;
+	width: 100%;
+	text-align: right;
+	background-color: #ffa784;
+	font-size: 150px;
+	font-family: fantasy;
+	border: solid black 1px;
+	border-radius: 50px;
+	font-variant: small-caps;
+	color: #7000ad;
+}
 
