@@ -1,5 +1,6 @@
 body {
-	background-color: #afafaf;
+	//background-image: url(img/YRitalicShadowV2.png);
+	background-color: #212121;
 }
 
 #header	{
@@ -64,6 +65,6 @@ body {
 }
 
 footer {
-	color: #3b00bc;
+	color: #ff8282;
 	font-size: 40px;
 }
