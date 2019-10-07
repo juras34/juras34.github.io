@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fractals</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<canvas id="myCanvas" width="600" height="300" style="border:1px solid #000000;">
+
+		<script type="text/javascript">
+			
+			var point1 = "()";
+			var point2;
+			var point3;
+
+			
+
+			var c = document.getElementById("myCanvas");
+			var ctx = c.getContext("2d");
+			var horizontal_grid = 0;
+			var vert_grid = 0;
+			
+			while (horizontal_grid <= 600) {
+			
+			ctx.moveTo(0, 0);
+			ctx.lineTo(horizontal_grid, 300);
+			
+			//vert_grid++;
+			horizontal_grid++;
+			
+			//ctx.lineTo(10, 10);
+			
+		}
+		
+		ctx.stroke();
+
+		</script>
+</body>
+</html>
