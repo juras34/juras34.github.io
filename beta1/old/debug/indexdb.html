@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game testing :3</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="styledb.css">
+		<link rel="shortcut icon" href="gamepad.png" type="image/x-icon">
+</head>
+
+<body>
+	<header></header>
+	<canvas id="canv1"></canvas>
+
+	<input type="button" name="bDown" title="Down" value="Down" onclick="buttonDownClick (this)">
+	<input type="button" name="bRight" title="Right" value="Right" onclick="buttonRightClick (this)">
+		
+	<script type="text/javascript">
+		var canvas = document.getElementById("canv1");
+		var ctx = canvas.getContext ('2d');
+		var x = 10;
+		var x1 = 20,
+			x2 = 10;
+
+		//ctx.scale(3, 3); увеличение
+
+		ctx.fillStyle = "pink";
+		ctx.fillRect(0,0, canvas.width, canvas.height);
+		//ctx.strokeStyle = "lime";
+		ctx.fillStyle = "black";
+		ctx.fillRect(x, 10, 5, 20);
+
+		function buttonRightClick(button) {
+			ctx.fillStyle = "pink";
+			ctx.fillRect(0, 0, canvas.width, canvas.height);
+			ctx.fillRect(x++, 10, 5, 20)
+
+			ctx.fillStyle = "black";
+			ctx.fillRect(x++, 10, 5, 20);
+		}
+		
+		function buttonDownClick(button) {
+			ctx.fillRect(x, x2, 5, x1++);
+		}
+
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+
+#upgrade {
+	font-family: Comic Sans MS;
+	font-size: 50px;
+	border: 5px solid red;
+	margin-left: 40%;
+	margin-right: 40%;
+	background-color: grey;
+}
+
+#iq {
+	background-color: magenta;
+	margin-top: 20%;
+}
+
+#ale {
+	background-color: #7a93bc;
+
+}
+
+#don {
+	font-family: Comic Sans MS;
+	background-color: lime;
+	font-size: 20px;
+}
+
+body {
+	background-color: #7a93bc;
+}
