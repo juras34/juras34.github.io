@@ -1,16 +1,3 @@
 #a {
-	text-align: right;
-	font-family: Verdana;
-	font-size: x-large;
-	color: red;
-
-}
-
-#img {
-	height: 300px;
-	widows: 300px;
-
-	border-style: dotted;
-	border-width: 10px;
-	border-color: lime;
+	color: green;
 }
